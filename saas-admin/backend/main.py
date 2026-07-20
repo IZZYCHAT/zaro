@@ -29,11 +29,11 @@ import uvicorn
 # ─────────────────────────────────────────────────────────────
 # Config
 # ─────────────────────────────────────────────────────────────
-JWT_SECRET      = os.getenv("BANANA_JWT_SECRET", "change-me-in-production-256-bit-key")
+JWT_SECRET      = os.getenv("BANANA_JWT_SECRET", "aa68173ff89c428bb02c71922094c456")
 JWT_ALGO        = "HS256"
 LICENSE_TTL     = timedelta(days=30)
 ADMIN_USER      = os.getenv("ADMIN_USER", "admin")
-ADMIN_PASSWORD  = os.getenv("ADMIN_PASSWORD", "banana-admin-2026")
+ADMIN_PASSWORD  = os.getenv("ADMIN_PASSWORD", "zaro@102030")
 DATABASE_URL    = os.getenv("DATABASE_URL", "postgresql://banana:banana@localhost:5432/banana_saas")
 REDIS_URL       = os.getenv("REDIS_URL", "redis://localhost:6379")
 
