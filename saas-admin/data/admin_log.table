@@ -1,0 +1,22 @@
+{
+  "fields": [
+    { "field": "id", "type": "number", "required": true },
+    { "field": "time", "type": "string" },
+    { "field": "admin", "type": "string" },
+    { "field": "action", "type": "string" },
+    { "field": "target_user", "type": "string" },
+    { "field": "details", "type": "string" }
+  ],
+  "data": [
+    { "id": 1, "time": "2026-07-20T17:20:15", "admin": "admin", "action": "send_command",     "target_user": "shri_ram",    "details": "Broadcast: Trading suspended for market close" },
+    { "id": 2, "time": "2026-07-20T16:45:03", "admin": "admin", "action": "suspend_user",     "target_user": "ethan_fx",    "details": "Payment overdue by 15 days" },
+    { "id": 3, "time": "2026-07-20T15:32:44", "admin": "admin", "action": "reset_devices",    "target_user": "hana_trend",  "details": "User requested device reset (new laptop)" },
+    { "id": 4, "time": "2026-07-20T14:18:22", "admin": "admin", "action": "stop_all",         "target_user": "bob_gold",    "details": "Emergency stop — high drawdown detected (12%)" },
+    { "id": 5, "time": "2026-07-20T13:00:11", "admin": "admin", "action": "create_user",      "target_user": "kai_swing",   "details": "New pro subscription activated" },
+    { "id": 6, "time": "2026-07-20T11:45:33", "admin": "admin", "action": "upgrade_plan",     "target_user": "diana_crypto","details": "pro → enterprise" },
+    { "id": 7, "time": "2026-07-20T10:15:48", "admin": "admin", "action": "ban_user",         "target_user": "julia_fx",    "details": "Terms of service violation — strategy hack attempt" },
+    { "id": 8, "time": "2026-07-20T09:22:17", "admin": "admin", "action": "send_notification","target_user": "alice_fx",    "details": "Message: Welcome bonus credited to your account" },
+    { "id": 9, "time": "2026-07-20T08:00:00", "admin": "admin", "action": "broadcast_all",    "target_user": "*",           "details": "System maintenance scheduled at 02:00 UTC" },
+    { "id": 10, "time": "2026-07-19T22:35:10", "admin": "admin", "action": "reset_devices",   "target_user": "george_scalp","details": "Auto-reset — hardware fingerprint changed" }
+  ]
+}

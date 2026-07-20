@@ -1,0 +1,40 @@
+{
+  "fields": [
+    { "field": "id", "type": "number", "required": true },
+    { "field": "user_id", "type": "string", "required": true },
+    { "field": "plan", "type": "enum", "enums": ["free", "pro", "enterprise"] },
+    { "field": "status", "type": "enum", "enums": ["active", "suspended", "banned"] },
+    { "field": "telegram", "type": "string" },
+    { "field": "online", "type": "boolean" },
+    { "field": "mt5_connected", "type": "boolean" },
+    { "field": "balance", "type": "number" },
+    { "field": "equity", "type": "number" },
+    { "field": "floating_pnl", "type": "number" },
+    { "field": "open_positions", "type": "number" },
+    { "field": "strategies_running", "type": "number" },
+    { "field": "strategies_total", "type": "number" },
+    { "field": "devices_used", "type": "number" },
+    { "field": "max_devices", "type": "number" },
+    { "field": "cpu", "type": "number" },
+    { "field": "ram_mb", "type": "number" },
+    { "field": "app_version", "type": "string" },
+    { "field": "platform", "type": "string" },
+    { "field": "country", "type": "string" },
+    { "field": "created_at", "type": "string" },
+    { "field": "last_seen", "type": "string" }
+  ],
+  "data": [
+    { "id": 1, "user_id": "shri_ram",    "plan": "enterprise", "status": "active",    "telegram": "@shri_ram",   "online": true,  "mt5_connected": true,  "balance": 45200,  "equity": 46180.50,  "floating_pnl": 980.50,   "open_positions": 4, "strategies_running": 5, "strategies_total": 8,  "devices_used": 2,  "max_devices": 10, "cpu": 18, "ram_mb": 425, "app_version": "1.0.0", "platform": "win32",  "country": "IN", "created_at": "2026-05-12", "last_seen": "2026-07-20T17:24:10" },
+    { "id": 2, "user_id": "alice_fx",    "plan": "pro",        "status": "active",    "telegram": "@alice_fx",   "online": true,  "mt5_connected": true,  "balance": 12800,  "equity": 13045.20,  "floating_pnl": 245.20,   "open_positions": 2, "strategies_running": 3, "strategies_total": 5,  "devices_used": 1,  "max_devices": 3,  "cpu": 12, "ram_mb": 340, "app_version": "1.0.0", "platform": "win32",  "country": "US", "created_at": "2026-06-01", "last_seen": "2026-07-20T17:24:08" },
+    { "id": 3, "user_id": "bob_gold",    "plan": "pro",        "status": "active",    "telegram": "@bob_gold",   "online": true,  "mt5_connected": true,  "balance": 8500,   "equity": 8342.00,   "floating_pnl": -158.00,  "open_positions": 3, "strategies_running": 2, "strategies_total": 4,  "devices_used": 2,  "max_devices": 3,  "cpu": 24, "ram_mb": 512, "app_version": "1.0.0", "platform": "win32",  "country": "GB", "created_at": "2026-06-08", "last_seen": "2026-07-20T17:24:11" },
+    { "id": 4, "user_id": "charlie_bt",  "plan": "free",       "status": "active",    "telegram": "@charlie_bt", "online": false, "mt5_connected": false, "balance": 3200,   "equity": 3200.00,   "floating_pnl": 0,        "open_positions": 0, "strategies_running": 0, "strategies_total": 2,  "devices_used": 1,  "max_devices": 1,  "cpu": 0,  "ram_mb": 0,   "app_version": "0.9.5", "platform": "win32",  "country": "SG", "created_at": "2026-06-15", "last_seen": "2026-07-20T09:15:00" },
+    { "id": 5, "user_id": "diana_crypto","plan": "enterprise", "status": "active",    "telegram": "@diana_c",    "online": true,  "mt5_connected": true,  "balance": 92500,  "equity": 94820.75,  "floating_pnl": 2320.75,  "open_positions": 6, "strategies_running": 7, "strategies_total": 12, "devices_used": 4,  "max_devices": 10, "cpu": 32, "ram_mb": 680, "app_version": "1.0.0", "platform": "darwin", "country": "AE", "created_at": "2026-04-20", "last_seen": "2026-07-20T17:24:09" },
+    { "id": 6, "user_id": "ethan_fx",    "plan": "pro",        "status": "suspended", "telegram": "@ethan",      "online": false, "mt5_connected": false, "balance": 5600,   "equity": 5480.00,   "floating_pnl": 0,        "open_positions": 0, "strategies_running": 0, "strategies_total": 3,  "devices_used": 1,  "max_devices": 3,  "cpu": 0,  "ram_mb": 0,   "app_version": "1.0.0", "platform": "win32",  "country": "AU", "created_at": "2026-05-30", "last_seen": "2026-07-18T14:22:00" },
+    { "id": 7, "user_id": "farah_gold",  "plan": "pro",        "status": "active",    "telegram": "@farah_g",    "online": true,  "mt5_connected": true,  "balance": 15400,  "equity": 15720.30,  "floating_pnl": 320.30,   "open_positions": 2, "strategies_running": 4, "strategies_total": 6,  "devices_used": 2,  "max_devices": 3,  "cpu": 15, "ram_mb": 380, "app_version": "1.0.0", "platform": "win32",  "country": "PK", "created_at": "2026-06-22", "last_seen": "2026-07-20T17:24:07" },
+    { "id": 8, "user_id": "george_scalp","plan": "free",       "status": "active",    "telegram": "@george",     "online": true,  "mt5_connected": true,  "balance": 1200,   "equity": 1245.80,   "floating_pnl": 45.80,    "open_positions": 1, "strategies_running": 1, "strategies_total": 1,  "devices_used": 1,  "max_devices": 1,  "cpu": 8,  "ram_mb": 280, "app_version": "1.0.0", "platform": "linux",  "country": "DE", "created_at": "2026-07-05", "last_seen": "2026-07-20T17:24:12" },
+    { "id": 9, "user_id": "hana_trend",  "plan": "pro",        "status": "active",    "telegram": "@hana_t",     "online": false, "mt5_connected": false, "balance": 22000,  "equity": 22450.00,  "floating_pnl": 0,        "open_positions": 0, "strategies_running": 0, "strategies_total": 4,  "devices_used": 2,  "max_devices": 3,  "cpu": 0,  "ram_mb": 0,   "app_version": "1.0.0", "platform": "win32",  "country": "JP", "created_at": "2026-05-18", "last_seen": "2026-07-20T11:40:00" },
+    { "id": 10, "user_id": "ivan_bot",   "plan": "enterprise", "status": "active",    "telegram": "@ivan_bot",   "online": true,  "mt5_connected": true,  "balance": 156000, "equity": 158240.60, "floating_pnl": 2240.60,  "open_positions": 8, "strategies_running": 9, "strategies_total": 15, "devices_used": 5,  "max_devices": 10, "cpu": 38, "ram_mb": 720, "app_version": "1.0.0", "platform": "win32",  "country": "RU", "created_at": "2026-03-10", "last_seen": "2026-07-20T17:24:10" },
+    { "id": 11, "user_id": "julia_fx",   "plan": "free",       "status": "banned",    "telegram": "@julia",      "online": false, "mt5_connected": false, "balance": 0,      "equity": 0,         "floating_pnl": 0,        "open_positions": 0, "strategies_running": 0, "strategies_total": 0,  "devices_used": 0,  "max_devices": 1,  "cpu": 0,  "ram_mb": 0,   "app_version": "0.9.0", "platform": "win32",  "country": "BR", "created_at": "2026-06-30", "last_seen": "2026-07-15T20:10:00" },
+    { "id": 12, "user_id": "kai_swing",  "plan": "pro",        "status": "active",    "telegram": "@kai_s",      "online": true,  "mt5_connected": true,  "balance": 34500,  "equity": 34120.00,  "floating_pnl": -380.00,  "open_positions": 3, "strategies_running": 2, "strategies_total": 5,  "devices_used": 1,  "max_devices": 3,  "cpu": 14, "ram_mb": 355, "app_version": "1.0.0", "platform": "darwin", "country": "KR", "created_at": "2026-05-25", "last_seen": "2026-07-20T17:24:08" }
+  ]
+}
